@@ -1,0 +1,25 @@
+@import 'src/style/common.scss';
+
+.header-component{
+    padding: 10px 20px;
+    font-size: $global_font18;
+    background: $global_common;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    >.portrait-wrap{
+        display: flex;
+        align-items: center;
+        >img{
+            width: 46px;
+            border-radius: 50%;
+        }
+        >span{
+            margin-left: 10px;
+        }
+    }
+    >.header-exit{
+        cursor: pointer;
+    }
+}

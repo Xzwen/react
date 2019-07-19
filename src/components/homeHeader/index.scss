@@ -1,0 +1,11 @@
+@import 'src/style/common.scss';
+
+.home-header-component{
+    padding: 6px 20px;
+    border-bottom: 1px solid $global_border_color;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: $global_font18;
+    overflow: hidden;
+}

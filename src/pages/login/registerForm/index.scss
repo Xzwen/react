@@ -1,0 +1,29 @@
+@import 'src/style/common.scss';
+
+.register-form{
+    .form-title{
+        line-height: 40px;
+        text-align: center;
+        font-size: $global_font18;
+        background: $global_common;
+        color: #fff;
+        border-radius: 6px 6px 0 0;
+        margin-bottom: 20px;
+    }
+    .ant-form-item{
+        padding: 0 10px;
+    }
+    .form-operation{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 10px 10px 10px;
+        
+    }
+    .router-btn{
+        cursor: pointer;
+    }
+    .register-form-btn{
+        width: 100%;
+    }    
+}

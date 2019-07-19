@@ -1,0 +1,27 @@
+
+@import 'src/style/common.scss';
+
+.siderbar-component{
+    width: 256px;
+    height: 100%;
+    background: #000c17;
+    overflow: auto;
+    >ul{
+        .ant-menu-sub{
+            background: #001529 !important;
+        }
+        // border-top: 2px solid $global_border_color;
+        // >.sider-tab{
+        //     padding: 10px;
+        //     font-size: $global_font16;
+        //     color: #FFF;
+        //     cursor: pointer;
+        //     &:hover{
+        //         background: $global_common;
+        //     }
+        // }
+        // >.active-tab-style{
+        //     background: $global_common;
+        // }
+    }
+}

@@ -1,0 +1,13 @@
+@import 'src/style/common.scss';
+
+.login-page{
+    height: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $global_background;
+    .login-form-wrap{
+        width: 400px;
+        background: #fff;        
+    }   
+}
